@@ -1,0 +1,183 @@
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#mainNav{
+    border-bottom: 1px solid transparent;
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+}
+.navList{
+    float: right;
+}
+.leftNav{
+    margin: 0 5rem;
+    padding-top: 2rem;
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+}
+.rightNav{
+    margin-left: 5rem;
+    padding-top: 32px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 4rem;
+    float: right;
+}
+.leftNav a{
+    color: white;
+}
+.rightNav a{
+    color: white;
+    margin-top: 2rem; 
+    margin-left: 15px;
+}
+.siteheading{
+    padding: 13rem;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-clean-blog/assets/img/home-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    font-size: 35px;
+}
+
+.siteheading h1{
+    font-size: 90px;
+    margin-bottom: 5px;
+    color: #fff;
+    font-weight: bold;
+}
+.siteheading span{
+    color: #fff;
+    font-size: 25px;
+}
+.links{
+    text-decoration: none;
+    color: #212529;
+}
+.links:hover{
+    color: #0085A1;
+}
+.post-meta a{
+    color: #6c757d;
+}
+.post-meta a:hover{
+    color: #0085A1;
+}
+.text >a>h2{
+    font-size: 36px;
+    margin: 30px 0 10px;
+} 
+.text{
+    text-align: justify;
+    padding: 0 20px;
+    margin: 0 auto;
+    width: 50%;
+}
+.text >a>h3{
+    font-size: 28px;
+    margin: 0px 0 10px;
+    font-weight: 300;
+}
+.text>p>a{
+    
+    height: 20px;
+}
+.textsides{
+    margin: 0 24px;
+}
+.divider{
+   margin: 1rem 0;
+}
+.btn_older{
+    color: #fff;
+    background-color: #0085A1;
+    border-color: #0085A1;
+    text-transform: uppercase;
+    padding: 1rem 1.75rem;
+    margin: 0 0 24px;
+    font-weight: 800;
+
+}
+.older_btn{
+   justify-content: flex-end;
+   display: flex;
+}
+.footer{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.fsides{
+    padding-right: 3rem;
+    padding-left: 3rem;
+    text-align: center;
+    font-size: 18px;
+    color: #6c757d;
+}
+.mainhead{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-clean-blog/assets/img/post-bg.jpg);
+    padding-top: 12.5rem;
+    padding-bottom: 12.5rem;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 4rem;
+}
+.siteheading2{
+   width: 45%;
+   margin: 0 auto;
+   text-align: left;
+    
+}
+.siteheading2 h1{
+    font-size: 56px;
+    margin-bottom: 5px;
+    color: #fff;
+    font-weight: bold;
+}
+.siteheading2 span{
+    color: #fff;
+    font-size: 20px;
+    
+}
+.subheading{
+    color: #fff;
+    font-size: 30px;
+    margin: 12px 0 32px;
+}
+.text p{
+    margin: 2rem 0 30px;
+    font-size: 20px;
+}
+.section-heading{
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-top: 3.75rem;
+}
+.text span{
+    font-style: italic;
+    font-size: 0.875rem;
+    padding: 0.625rem;
+    text-align: center;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+.lastlinks{
+    text-decoration: underline;
+    color: black;
+}
+.post-meta1 a{
+    color: #fff;
+    font-style: italic;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.post-meta2{
+    text-decoration: underline;
+    color: #212529;
+}
