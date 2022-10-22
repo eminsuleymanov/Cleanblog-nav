@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    overflow: auto;
+    padding: 25px 7rem;
+    position: fixed;
+    width: 100%;
+
+}
+.logo a{
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffffb3;
+}
+.logo{
+    float: left;
+}
+.nav a{
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffffb3;
+    margin-left: 30px;
+
+}
+.nav{
+    float: right;
+    margin-top: 5px;
+}
+.slider{
+    padding-top: 4.5rem;
+    text-align: center;
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg") ;
+    padding: 16.3rem 0;
+    background-position: center;
+    background-size: cover;
+}
+
+.slider h1{
+    font-size: 3.5rem;
+    color: white;
+
+}
+.slider p{
+    color: #ffffffbf;
+    font-size: 18.4px;
+    margin-bottom: 3rem;
+    
+}
+.divider{
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color: #f4623a;
+    border: none;
+}
+.slider a{
+    color: #fff;
+    background-color: #f4623a;
+    padding: 20px 36px;
+    font-size: 15px;
+    border-radius: 30px;
+}
+.started{
+    text-align: center;
+    padding: 9rem 0;
+    background: #f4623a;
+}
+.started h2{
+    font-size: 40px;
+    color: #fff;
+}
+.started p{
+    color: #fff;
+    margin-bottom: 3rem;
+    font-size: 20px;
+}
+.divider2{
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color: #fff;
+    border: none;
+
+}
+.started a{
+    color: black ;
+    background-color: #fff;
+    padding: 20px 36px;
+    font-size: 15px;
+    border-radius: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+.photos{
+    max-width: 1920px;
+    height: 516px;
+}
+.box{
+    width: calc(100%/3);
+    float: left;
+}
+.box img{
+    width: 100%;
+    vertical-align: bottom;
+    transition: .5s;
+    cursor: pointer;
+}
+.box img:hover{
+    filter: opacity(0.5);
+}
+html,body{
+    scroll-behavior: smooth;
+}
+.container{
+    padding: 8rem 0;
+    background-color: #212529;
+    text-align: center;
+}
+.container a{
+    color: black ;
+    background-color: #fff;
+    padding: 20px 36px;
+    font-size: 15px;
+    border-radius: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+.container h2{
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 4rem;
+    padding: 0 3rem;
+}
+.form{
+    padding: 8rem 0;
+}
+.formcontainer{
+    text-align: center;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    width: 650px;
+    margin: 0 auto;
+}
+.intouch h2{
+    font-size: 32px;
+    color: #212529;
+} 
+.intouch p{
+    font-size: 16px;
+    color: #6c757d;
+    margin-bottom: 3rem;
+}
+.info .inputs{
+    padding: 16px 12px;
+    width: 100%;
+    margin-bottom: 2rem;
+    
+}
+.info .inputs:focus{
+    outline: none ;
+    border:1px solid #f4563a;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 3px #fc8552ba;
+
+
+}
+textarea{
+    resize: vertical;
+    padding: 16px 12px;
+    width: 100%;
+    margin-bottom: 2rem;
+    height: 10rem;
+    
+}
+.submitbtn{
+    color: #fff;
+    background-color: #f4623a;
+    border-color: #f4623a;
+    cursor: pointer;
+    padding: 1.25rem 15.5rem ;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    border-radius: 10rem;
+    opacity: 0.65;
+}
+.footer{
+    padding: 3rem 3rem;
+    text-align: center;
+    background-color: rgb(248, 249, 250) ;
+
+    
+}
+.footer h3{
+    color: #6c757d;
+    font-size: 16px;
+    font-weight: 400;
+
+}
